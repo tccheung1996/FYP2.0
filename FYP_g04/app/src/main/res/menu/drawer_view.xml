@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_top" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/ic_action_name"
+            android:title="Main page" />
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@drawable/item2"
+            android:title="Shop" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/item3"
+            android:title="Log out" />
+        <item
+            android:id="@+id/nav_forth_fragment"
+            android:icon="@drawable/ic_setting"
+            android:title="Setting" />
+    </group>
+    <group android:id="@+id/menu_bottom" android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_fifth_fragment"
+            android:icon="@drawable/ic_onekey"
+            android:title="一鍵開機設定" >
+        </item>
+    </group>
+</menu>
